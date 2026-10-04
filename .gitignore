@@ -1,0 +1,15 @@
+# Datos: nunca se versionan
+data*
+!data/raw/.gitkeep
+
+# Credenciales y variables de entorno
+.env
+*.key
+secrets/
+
+# Temporales de Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+resultados/
